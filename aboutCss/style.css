@@ -1,0 +1,585 @@
+body{
+    margin: 2%;
+}
+nav{
+    display: flex;
+    height: 100px;
+    background-color: #FBFAF8;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;    
+}
+
+.topLogo{
+    height: 100%;
+}
+
+.hamburgerMenu{
+    display: none;
+}
+
+.line{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+}
+.aboutNav{
+    padding: 10px;
+    
+}
+
+.caseStudiesNav{
+    padding: 10px;
+}
+
+.resumeNav{
+    padding: 10px;
+}
+
+.contactNav{
+    padding: 10px;
+}
+
+.topBar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #CFCEC8;
+
+}
+
+.aboutMeSection{
+    display: grid;
+    background-color: #FBFAF8;
+    grid-template-columns: 33% 66%;
+    grid-template-rows: 66% 33%;
+    grid-template-areas: 
+    "aboutMePhoto aboutMeText aboutMeText"
+    "storySection funFacts funFacts";
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.aboutMePhoto{
+    grid-area: aboutMePhoto;
+    justify-self: end;
+    max-height: 685px;
+    
+
+}
+
+.photoOfMe{
+    max-height: 685px;
+}
+
+.aboutMeInfo{
+    grid-area: aboutMeText;
+    justify-self: center;
+    padding: 20px;
+    max-height: 685px;
+}
+
+.aboutMeText{
+    font-family: 'Work Sans', arial, sans-serif;
+    font-size: 18px;
+    max-width: 535px;
+}
+.storySection{
+    display: flex;
+    grid-area: storySection;
+    justify-self: start;
+    justify-items: start;
+    padding: 20px;
+}
+.angledFlower{
+    height: 315px;
+}
+
+.storyText{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 48px;
+    text-align: center;
+    color: #C75644;
+}
+.funFactsSection{
+    grid-area: funFacts;
+    justify-self: center;
+    align-self: end;
+}
+.funFacts{
+    text-align: center;
+}
+.funFactsList{
+    font-family: 'Work Sans', arial, sans-serif;
+    font-size: 18px;
+    max-width: 450px;
+    text-align: center;
+}
+
+.uxSkillsSection{
+    display: flex;
+    flex-direction: column;
+    background-color: #3D4F66;
+    color: #FBFAF8;
+    margin-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.myUXSkills{
+    text-align: center;
+}
+
+.userResearch{
+    text-align: center;
+}
+
+.skillsDescription{
+    text-align: left;
+
+}
+
+.technologiesSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.bottomPhoto{
+    max-height: 685px;
+}
+
+.myWork{
+    display: flex;
+    background-color: #3D4F66;
+    width: 100%;
+    height: 425px;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.myWorkTitle{
+    color: #FBFAF8;
+}
+
+.caseStudiesArea{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    margin-top: -200px;
+    justify-content: space-evenly;
+
+}
+
+.deptOfEd{
+    max-width: 320px;
+}
+
+.edCollage{
+    max-width: 296px;
+}
+.dejaFoodie{
+    max-width: 320px;
+}
+.dejaCollage{
+    max-width: 296px;
+}
+
+.aeonCollage{
+    max-width: 296px;
+}
+.aeonForOcean{
+    max-width: 320px;
+}
+
+.checkItOut{
+    border: 2px solid  #2F2F31;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Forum','Times New Roman', 'serif';
+    font-size: 48px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+.footerArea{
+    display: grid;
+    height: 375px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    "flowerSection flowerSection flowerSection helloSection helloSection helloSection helloSection helloSection facebookSection linkedInSection instagramSection instagramSection"
+    "logoSection logoSection logoSection copywrightSection copywrightSection copywrightSection copywrightSection copywrightSection copywrightSection copywrightSection copywrightSection copywrightSection";
+
+}
+
+.flowerSection{
+    position: relative;
+    background-color: #988877;
+    grid-area: flowerSection;
+}   
+.bottomFlower{
+    position: absolute;
+    top: -125px;
+    height: 200%;
+}
+.helloSection{
+    display: flex;
+    background-color: #988877;
+    grid-area: helloSection;
+    align-items: center;
+}
+
+.facebookSection{
+    display: flex;
+    background-color: #988877;
+    grid-area: facebookSection;
+    align-items: center;
+}
+
+.linkedInSection{
+    display: flex;
+    background-color: #988877;
+    grid-area: linkedInSection;
+    align-items: center;
+}
+
+.instagramSection{
+    display: flex;
+    background-color: #988877;
+    grid-area: instagramSection;
+    align-items: center;
+}
+
+.logoSection{
+    display: flex;
+    background-color: #FBFAF8;
+    grid-area: logoSection;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logoSection img{
+    height: 50%;
+}
+.copywrightSection{
+    display: flex;
+    background-color: #FBFAF8;
+    grid-area: copywrightSection;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.copywrightSection p{
+    font-size: 18px;
+}
+
+
+
+/* Text Styles CSS */
+header{
+    font-family:'Work Sans', arial, sans-serif;
+    font-size: 24px;
+    padding-top: 12px;
+}
+h1{
+    font-family: 'Forum','Times New Roman', serif;
+    font-size: 96px;
+}
+h2{
+    font-family: 'Forum','Times New Roman', serif;
+    font-size: 72px;
+}
+h3{
+    font-family: 'Forum','Times New Roman', serif;
+    font-size: 64px;
+}
+h4{
+    font-family: 'Forum','Times New Roman', serif;
+    font-size: 48px;
+}
+h5{
+    font-family: 'Forum','Times New Roman', serif;
+    font-size: 36px;
+}
+h6{
+    font-family:'Work Sans', arial, sans-serif;
+    font-size: 36px;
+}
+p{
+    font-family:'Work Sans', arial, sans-serif;
+    font-size: 24px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 600px){
+
+    .topLogo{
+        height: 50%;
+    }
+
+    .hamburgerMenu{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .line{
+        width: 48px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+    .navItems{
+        display: none;
+    }
+    
+    .aboutMeSection{
+        display: flex;
+        flex-direction: column;
+        background-color: #FBFAF8;
+        max-height: 100%;
+       
+    }
+    
+    .aboutMePhoto{
+        display: flex;
+        grid-area: aboutMePhoto;
+        justify-content: center;
+        justify-self: center;
+        padding-bottom: 20px;
+        max-width: 100%
+        
+    
+    }
+    
+    .aboutMeInfo{
+        grid-area: aboutMeInfo;
+        justify-self: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 20px;
+
+        
+    }
+    
+    .aboutMeInfo h2{
+        text-align: center;
+    }
+    .aboutMeText{
+        font-family: 'Work Sans', arial, sans-serif;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .storySection{
+        display: none;
+        justify-self: center;
+        align-self: center;
+        grid-area: storySection;
+      
+        
+    }
+
+    
+    .storyText{
+        font-family: 'La Belle Aurore', cursive;
+        font-size: 24px;
+        text-align: center;
+        color: #C75644;
+    }
+    .funFactsSection{
+        grid-area: funFacts;
+        justify-self: center;
+        align-self: center;
+        margin: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .funFacts{
+        text-align: center;
+    }
+    .funFactsList{
+        font-family: 'Work Sans', arial, sans-serif;
+        font-size: 18px;
+        max-width: 450px;
+        text-align: center;
+    }
+    .uxSkillsSection{
+        display: flex;
+        flex-direction: column;
+        background-color: #3D4F66;
+        color: #FBFAF8;
+        margin-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .myUXSkills{
+        text-align: center;
+    }
+    
+    .userResearch{
+        text-align: center;
+    }
+    
+    .skillsDescription{
+        text-align: center;
+    
+    }
+    .technologiesSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+.myWork{
+    width: 100%;
+}
+    .caseStudiesArea{
+        display: flex;
+        flex-direction: column;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 200px;
+        margin-top: -200px;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .deptOfEd{
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .dejaFoodie{
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .aeonForOcean{
+        padding: 20px;
+        margin: 20px;
+    }
+    .footerArea{
+        display: grid;
+        height: 375px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr 2fr 1fr;
+        grid-template-areas: 
+        "helloSection helloSection helloSection "
+        "facebookSection linkedInSection instagramSection"
+        "logoSection logoSection logoSection"
+        "copywrightSection copywrightSection copywrightSection"
+         ;
+        
+    }
+    
+    .flowerSection{
+        position: relative;
+        background-color: #988877;
+        grid-area: flowerSection;
+    }   
+    .bottomFlower{
+        display: none;
+        position: absolute;
+        top: -50px;
+        height: 200%;
+    }
+    .helloSection{
+        display: flex;
+        background-color: #988877;
+        grid-area: helloSection;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .helloSection p{
+        text-align: center;
+    }
+    
+    .facebookSection{
+        display: flex;
+        background-color: #988877;
+        grid-area: facebookSection;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .linkedInSection{
+        display: flex;
+        background-color: #988877;
+        grid-area: linkedInSection;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .instagramSection{
+        display: flex;
+        background-color: #988877;
+        grid-area: instagramSection;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .logoSection{
+        display: flex;
+        background-color: #FBFAF8;
+        grid-area: logoSection;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logoSection img{
+        height: 50%;
+    }
+    .copywrightSection{
+        display: flex;
+        background-color: #FBFAF8;
+        grid-area: copywrightSection;
+        justify-content: center;
+        align-items: center;
+        padding-right: 100px;
+        text-align: center;
+    }
+
+    .copywrightInfo{
+        font-size: 18px;
+        text-align: center;
+    }
+}
