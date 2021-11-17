@@ -1,6 +1,6 @@
 /* Body CSS */
 body{
-    display: block;
+   display: block;
     margin: 2%;
 }
 nav{
@@ -8,7 +8,7 @@ nav{
     position: relative;
     width: 100%;
     height: 100px;
-    background-color: lightgray;
+    background-color: #FBFAF8;    
     text-align: center;
 }
 
@@ -69,7 +69,7 @@ nav{
     font-family: 'Forum','Times New Roman', 'serif';
     font-size: 48px;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 50px;
 }
 
 .topFlower{
@@ -87,7 +87,7 @@ nav{
     position: relative;
     width: 100%;
     height: 40px;
-    background-color: #CFCEC8;
+    background-color: #988877;
     z-index: 4;
 }
 .caseStudiesTitle{
@@ -145,7 +145,7 @@ nav{
     font-family: 'Forum','Times New Roman', 'serif';
     font-size: 48px;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 50px;
      
   }
 
@@ -173,6 +173,22 @@ nav{
     height: 736px;
     
 }
+
+.connectButton{
+    border: 2px solid  #CFCEC8;
+    background-color: #3D4F66;
+    color: #CFCEC8;
+    padding: 14px 28px;
+    font-family: 'Forum','Times New Roman', 'serif';
+    font-size: 48px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.connectInfo h4{
+    font-size: 
+}
+
 .socialMediaArea{
     position: relative;
     width: 100%;

@@ -2,16 +2,45 @@ body{
     margin: 2%;
 }
 nav{
-    display: flex;
+    display: block;
+    position: relative;
+    width: 100%;
     height: 100px;
-    background-color: #FBFAF8;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;    
+    background-color: #FBFAF8; 
+    text-align: center;
 }
 
 .topLogo{
-    height: 100%;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.aboutNav{
+    position: absolute;
+    top: 30px;
+    right: 625px;
+    text-decoration: none;
+}
+
+.aboutNav a{
+    text-decoration: none;
+    color: #050601;
+}
+.caseStudiesNav{
+    position: absolute;
+    top: 30px;
+    right: 410px;
+    text-decoration: none;
+}
+.resumeNav{
+    position: absolute;
+    top: 30px;
+    right: 250px;
+}
+.contactNav{
+    position: absolute;
+    top: 30px;
+    right: 100px;
 }
 
 .hamburgerMenu{
@@ -19,7 +48,7 @@ nav{
 }
 
 .line{
-    width: 35px;
+    width: 30px;
     height: 5px;
     background-color: black;
     margin: 6px 0;
@@ -86,7 +115,7 @@ nav{
     grid-area: aboutMeText;
     justify-self: center;
     padding: 20px;
-    max-height: 685px;
+
 }
 
 .aboutMeText{
@@ -212,14 +241,14 @@ nav{
 }
 
 .checkItOut{
-    border: 2px solid  #2F2F31;
-    color: black;
-    padding-left: 30px;
-    padding-right: 30px;
+    border: 2px solid  #050601;
+    background-color: #FBFAF8;
+    color: #050601;
+    padding: 14px 28px;
     font-family: 'Forum','Times New Roman', 'serif';
     font-size: 48px;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 50px;
 }
 
 
