@@ -81,8 +81,12 @@ nav{
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #CFCEC8;
+    background-color: #988877;
 
+}
+
+.topBar h1{
+    color: #FBFAF8;
 }
 
 .aboutMeSection{
@@ -123,20 +127,13 @@ nav{
     font-size: 18px;
     max-width: 535px;
 }
-.storySection{
-    display: flex;
-    grid-area: storySection;
-    justify-self: start;
-    justify-items: start;
-    padding: 20px;
-}
-.angledFlower{
-    height: 315px;
-}
 
 .storyText{
+    grid-area: storySection;
+    justify-self: center;
+    align-self: center;
     font-family: 'La Belle Aurore', cursive;
-    font-size: 48px;
+    font-size: 64px;
     text-align: center;
     color: #C75644;
 }
@@ -160,7 +157,6 @@ nav{
     flex-direction: column;
     background-color: #3D4F66;
     color: #FBFAF8;
-    margin-top: 50px;
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 50px;
@@ -180,6 +176,13 @@ nav{
     text-align: left;
 
 }
+
+.divider{
+    width: 100%;
+    height: 40px;
+    background-color: #CFCEC8;
+}
+
 
 .technologiesSection{
     display: flex;

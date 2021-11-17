@@ -56,6 +56,8 @@ $(".aboutNavigation").hover(function(){
 }
 );
 
+
+
 $(".facebookIcon").hover(function(){
   $(this).attr("src","images/facebookRed.png");
 }, function() {
