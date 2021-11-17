@@ -166,10 +166,19 @@ nav{
 
 .myUXSkills{
     text-align: center;
+    margin-bottom: 0px;
 }
 
+.uxSkillsSection h6{
+    margin-bottom: 0
+}
+
+.uxSkillsSection {
+    padding-bottom: 100px;
+}
 .userResearch{
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .skillsDescription{
