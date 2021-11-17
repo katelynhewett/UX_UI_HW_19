@@ -56,8 +56,6 @@ $(".aboutNavigation").hover(function(){
 }
 );
 
-
-
 $(".facebookIcon").hover(function(){
   $(this).attr("src","images/facebookRed.png");
 }, function() {
@@ -78,5 +76,14 @@ $(".instagramLogo").hover(function(){
   $(this).attr("src","images/instagramRed.png");
 }, function() {
   $(this).attr("src","images/instagramIcon.png");
+}
+);
+
+
+
+$(".resumePhoto").hover(function(){
+  $(this).attr("src","images/resumeArrow.png");
+}, function() {
+  $(this).attr("src","images/resumeCollage.png");
 }
 );
