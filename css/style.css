@@ -33,6 +33,14 @@ nav{
     top: 35px;
     right: 410px;
     text-decoration: none;
+    color: #050601;
+    
+}
+}
+
+.caseStudiesLink{
+    color: #050601;
+    text-decoration: none;
 }
 .resumeNav{
     position: absolute;
