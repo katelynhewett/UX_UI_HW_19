@@ -79,8 +79,13 @@ nav{
     font-size: 48px;
     cursor: pointer;
     border-radius: 50px;
+    text-decoration: none;
 }
 
+.learnMoreLink{
+    color: #CFCEC8;
+    text-decoration: none;
+}
 .topFlower{
     position: absolute;
     height: 650px;
